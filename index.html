@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button id="mapGroceries">Supermarkets Near Me</button>
+    <button id="mapLiquor">Liquor Stores Near Me</button>
+    <form id="searchMap">
+        <label for="groceriesRadio">Groceries</label>
+        <input type="radio" name="placeType" id="groceriesRadio" value="groceries">
+        <label for="groceriesRadio">Liquor</label>
+        <input type="radio" name="placeType" id="liquorRadio" value="liquor">
+        <label for="searchAddress">Address or Postal Code</label>
+        <input type="text" id="searchAddress">
+        <button id="searchPlaces">Search</button>
+    </form>
+
+    <div id="mapResult"></div>
+
+
+    <!--
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11546.429218267342!2d-79.45913715168439!3d43.656337931874354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slcbo!5e0!3m2!1sen!2sca!4v1572813208216!5m2!1sen!2sca"
+        width="600" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+ -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./map.js"></script>
+</body>
+
+</html>
